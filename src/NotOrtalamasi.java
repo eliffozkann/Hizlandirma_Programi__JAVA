@@ -27,7 +27,7 @@ public class NotOrtalamasi {
 
         System.out.printf("Not Ortalaması: ",ort);
 
-        String result= ort>=60? "Sınıfı Geçti":"Sınıfta Kaldı";
+        String result= ort>=60 ? "Sınıfı Geçti" :"Sınıfta Kaldı";
         System.out.println(result);
     }
 }
