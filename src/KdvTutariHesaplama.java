@@ -12,7 +12,7 @@ public class KdvTutariHesaplama {
 
         double secenek= (sayi <= 1000) ? kdvTutari1 : kdvTutari2;
 
-        double kdvli=((sayi*secenek)/100)+sayi;
+        double kdvli=(sayi * secenek)+sayi;
 
         System.out.println("KDVsiz Fiyat:" + sayi);
         System.out.println("KDV'li Fiyat: " + kdvli);
