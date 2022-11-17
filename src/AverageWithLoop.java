@@ -10,7 +10,7 @@ public class AverageWithLoop {
         k = inp.nextInt();
 
         for (int i = 1; i<=k; i++) {
-            if (k % 3 == 0 && k %4  == 0){
+            if (i % 3 == 0 && i %4  == 0){
                 total += i;
                 counter++;
             }
