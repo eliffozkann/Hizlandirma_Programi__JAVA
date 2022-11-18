@@ -15,8 +15,7 @@ public class SwitchCase {
         select = inp.nextInt();
 
 
-        switch(select)
-        {
+        switch(select) {
             case 1: System.out.println("Toplama Sonucu:" + (n1 + n2));break;
             case 2: System.out.println("Çıkartma Sonucu:" + (n1 - n2));break;
             case 3: System.out.println("Çarpma Sonucu:" + (n1 * n2));break;
@@ -25,8 +24,8 @@ public class SwitchCase {
                     System.out.println("Bölme Sonucu:" + (n1 / n2));
                 } else {
                     System.out.println("Herhangi bir sayı 0'a bölünemez!!");
-                };break;
-            default: System.out.println("Yanlış nir seçim yaptınız. Tekrar deneyiniz.");
+                }break;
+            default: System.out.println("Yanlış bir seçim yaptınız. Tekrar deneyiniz.");
         }
     }
 }
