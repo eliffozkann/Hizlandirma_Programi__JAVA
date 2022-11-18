@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class UcgenWithYildiz {
+public class DiamondWithStars {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         System.out.print("n değeri: ");
