@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ArmstrongSayi {
     public static void main(String[] args) {
-        int sayi, k, carpim,basNumber=0, toplam=0;
+        int sayi, k, carpim,basNumber=0, toplam=0, basamakSayisiToplami=0;
 
         Scanner inp = new Scanner(System.in);
         System.out.print("Bir sayı giriniz: ");
@@ -18,6 +18,7 @@ public class ArmstrongSayi {
         copySayi = sayi;
         while (copySayi != 0) {
             k = copySayi % 10;
+            basamakSayisiToplami += k;
             carpim = 1;
             for (int i = 1; i <= basNumber; i++) {
                 carpim *= k;
@@ -29,7 +30,8 @@ public class ArmstrongSayi {
         if (toplam == sayi) {
             System.out.println(sayi + ": Armstrong sayıdır.");
         } else {
-            System.out.println(sayi + ": Armstrong sayısı değildir.");
+            System.out.println(sayi + ": Armstrong sayı değildir.");
         }
+        System.out.println("Basamak Sayıları toplamı: " + basamakSayisiToplami);
     }
 }
