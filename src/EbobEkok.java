@@ -24,6 +24,7 @@ public class EbobEkok {
         }
 
         int i = (n1 * n2);
+        //EKOK
         while( i >= 1){
             i--;
             if (i % n1 == 0 && i % n2 == 0){
