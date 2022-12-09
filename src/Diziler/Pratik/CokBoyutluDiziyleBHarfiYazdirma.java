@@ -1,6 +1,6 @@
 package Diziler.Pratik;
 
-public class CokBoyutluDiziyleAHarfiYazdirma {
+public class CokBoyutluDiziyleBHarfiYazdirma {
     public static void main(String[] args) {
         String[][] letter = new String[7][4];
 
