@@ -1,7 +1,5 @@
 package Diziler.Pratik;
 
-import java.util.Arrays;
-
 public class TekrarEdenSayiBulma {
 
     static boolean isFind(int[] arr, int value){
