@@ -55,7 +55,7 @@ public class SayiTahminiOyunu {
         if (!isWin) {
             System.out.println("Kaybettiniz ! ");
             if (!isWrong) {
-                System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
+                System.out.println("Tahmin edilen sayılar : " + Arrays.toString(wrong));
             }
         }
 
